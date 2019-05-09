@@ -29,10 +29,6 @@ player_profile <- function(filepath, player_id) {
     batting_style <- x[length(x)-1]
     bowling_style <- x[length(x)]
 
-    #list2env( setNames(as.list(x[1], x[2], x[3], x[length(x)-2], x[length(x)-1], x[length(x)]),
-    #                   as.list(fullname, stringr::str_replace_all(dob_place, ",", "|"), age, role, batting_style, bowling_style)),
-    #          envir = .GlobalEnv)
-
     x=""
     x <- rvest::html_nodes(player_profile_html, "div#ciHomeContent div#ciMainContainer div#ciHomeContentlhs div.pnl490M table.engineTable tbody tr.data1 td")
     x <- rvest::html_text(x)
