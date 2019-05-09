@@ -13,14 +13,23 @@ http://www.espncricinfo.com/india/content/player/country.html?country=<country c
 
 
 library(cricket)
+
 countries <- countries()
 
+
 for (country in countries) 
+
 {
+
     players <- player_ids(country)
+    
     for (player in players)
+    
     {
+    
         player_profile("<file path to store player profile>", player)
+        
     }
+    
 }
 
