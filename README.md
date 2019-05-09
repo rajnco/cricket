@@ -5,10 +5,10 @@ Usage:
 The below code pulls country-wise player profile. 
 
 Country code from below url. 
-http://www.espncricinfo.com/story/_/id/18791072/all-cricket-teams-index
+__http://www.espncricinfo.com/story/_/id/18791072/all-cricket-teams-index
 
 Country-wise player list from below url.
-http://www.espncricinfo.com/india/content/player/country.html?country=<country code>
+__http://www.espncricinfo.com/india/content/player/country.html?country=<<country code>>
 
 
 
